@@ -1,7 +1,7 @@
 # To-Do List App
 
 ## Overview
-The To-Do List App is a simple and user-friendly application designed to help users manage their tasks efficiently. Users can add, view, delete, and mark tasks as completed. This app is built using Android Studio with Java/Kotlin, and it stores data locally for easy access.
+The To-Do List App is a simple and user-friendly application designed to help users manage their tasks efficiently. Users can add, view, delete, and mark tasks as completed. This app is built using Android Studio with Java, and it stores data locally for easy access.
 
 ## Features
 - **Add Tasks**: Users can enter new tasks using a dialog interface.
