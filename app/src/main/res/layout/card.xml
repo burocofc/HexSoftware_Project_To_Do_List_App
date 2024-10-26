@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Delete" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Name"
+                    android:textColor="#24CE43"
+                    android:textFontWeight="1000"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</RelativeLayout>
